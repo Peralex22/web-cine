@@ -1,0 +1,55 @@
+html{ /*es posa el nom de la etiqueta per indicar que volem aportar estils a tota l'infomació que aquesta abasti*/
+	background-color:grey; /*background-color, aporta el color del fons*/
+} 
+#contenedor{	/*determina l'estil de un bloc de contingut unic, marcat en l'html per <div id=...>*/
+	border:1px solid;	/*aporta una bora*/
+	margin:20px auto 20px auto;	/*determina la mida del marge de la pagina*/
+	text-align: justify;	/*determina l'ajustament del text*/
+	width: 960px;	/*determina la amplada maxima de la pagina*/
+	padding-left: 80px;	
+	padding-right: 80px;
+	padding-top: 40px;
+	padding-bottom: 160px;	/*aporten l'amplitud de el reblert*/
+	background-color: white;
+	
+}
+body{
+	font-family:helvetica;	/*defineix la tipologia de la lletra*/
+	line-height:22px;	/*defineix el tamany del interliniat*/
+}
+h1{
+	color:#0b6ab3; 	 /*defineix el color*/
+	font-size:50px;	/*defineix el tamany de la lletra*/
+	font-family:arial;
+}
+h2{
+	color:#0567b2;
+	border-bottom:1px solid;	
+}
+
+.fondo{		/*."..." determina l'estil d'una classe*/
+	background:#e4f1f9;
+	padding:18px;
+	opacity: 0.5;	/*defineix la opacitat de la opacitat*/
+	font-style: italic;		/*defineix el tipus d'estil de la lletra*/
+	text-align: right;	/*defineix la alineació del contingut del text*/
+}
+
+.negrita{
+	font-weight:bold; /*aplica el gruix de la lletra*/
+
+}
+.azul{
+	color:#0567b2;
+	font-weight:bold;
+	font-style:italic;
+}
+.tab{
+	text-indent:50px; /*estableix la tabulació del text*/
+}
+.gris{
+	font-family:helvetica;
+	color:#acacac;
+}
+	
+	
